@@ -9,13 +9,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.6.5",
-    "@types/node": "^18.15.11",
-    "nuxt": "^3.3.3",
-    "prisma": "^4.12.0",
-    "typescript": "^5.0.4"
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.18",
+    "nuxt": "^3.7.3",
+    "prisma": "^5.3.1",
+    "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@prisma/client": "^4.12.0"
+    "@prisma/client": "^5.3.1"
   }
 }
