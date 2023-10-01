@@ -1,9 +1,9 @@
 {
-  "name": "nuxt-app",
+  "name": "nsc",
   "private": true,
   "scripts": {
+    "dev": "prisma generate && nuxt dev",
     "build": "nuxt build",
-    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
