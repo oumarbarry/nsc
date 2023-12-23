@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-700 min-h-screen p-52">
+  <div class="min-h-screen bg-gray-700 p-10">
     <Movies />
   </div>
 </template>
