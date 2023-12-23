@@ -1,8 +1,14 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  devtools: { enabled: true },
   typescript: { shim: false },
 
   experimental: { componentIslands: true },
 
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ["@nuxtjs/tailwindcss"],
+
+  tailwindcss: { viewer: false },
+
+  imports: {
+    dirs: ["./db/**"],
+  },
 })
