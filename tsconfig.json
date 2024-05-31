@@ -1,6 +1,3 @@
 {
-  "extends": "./.nuxt/tsconfig.json",
-  "exclude": [
-    "./eslint.config.js"
-  ]
+  "extends": "./.nuxt/tsconfig.json"
 }

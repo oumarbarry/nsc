@@ -1,14 +1,14 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  typescript: { shim: false },
 
   experimental: { componentIslands: true },
 
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: [
+    "@nuxt/eslint",
+    "@nuxtjs/tailwindcss",
+  ],
 
-  tailwindcss: { viewer: false },
+  eslint: { config: { standalone: false } },
 
-  imports: {
-    dirs: ["./db/**"],
-  },
+  imports: { dirs: ["./db/**"] },
 })
